@@ -9,6 +9,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.container {
+    margin-bottom: 50px;
+}
+
 .navbar {
     text-transform: uppercase;
 }
@@ -31,6 +35,7 @@ body {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+    text-transform: uppercase;
 }
 
 .btn-outline-dark:hover,
@@ -46,4 +51,45 @@ body {
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+}
+
+.carousel-indicators li {
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    width: 10px;
+    height: 5px;
+    background-color: #ff9d00;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.carousel-indicators .active {
+    width: 25px;
+    background-color: #ff9d00;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.slide-area {
+    background-image: url("../images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.slide-bg {
+    background-image: url("../images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100px 100px;
+    height: 450px;
 }
