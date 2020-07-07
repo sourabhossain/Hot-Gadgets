@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.btn-outline-dark,
+.buy-now {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 11%, rgba(56, 47, 47, 1) 69%, rgba(105, 82, 82, 1) 93%);
+    color: #ffffff;
+    border: none;
+    padding: 9px 25px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btn-outline-dark:hover,
+.buy-now:hover {
+    opacity: 0.8;
+}
+
+.btn-outline-dark {
+    font-weight: bold;
+    padding: 6px 22px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
