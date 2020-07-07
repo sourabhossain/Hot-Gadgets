@@ -9,8 +9,8 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.container {
-    margin-bottom: 50px;
+.container:not(header) {
+    margin-bottom: 120px;
 }
 
 .navbar {
@@ -90,8 +90,12 @@ body {
     background-image: url("../images/bg-2.png");
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-size: 100px 100px;
-    height: 450px;
+    background-size: 150px 150px;
+    height: 500px;
+}
+
+.card-deck {
+    padding-left: 20px;
 }
 
 .card {
